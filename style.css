@@ -1,0 +1,136 @@
+.signin{
+  width:320px;
+  height:500px;
+  background: rgba(0,0,0,0.5);
+  color:#fff;
+  top:50%;
+  left:75%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  padding:20px 20px;
+}
+.forgot{
+  width:500px;
+  height:650px;
+  background: black;
+  color:#fff;
+  top:50%;
+  left:75%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  padding:20px 20px;
+}
+input[type="text"]
+{
+  width:240px;
+  text-align:center;
+  border:none;
+  background: transparent;
+  border-bottom:1px solid white;
+  font-family:'Play',sans-serif;
+  font-size:16px;
+  font-weight:200px;
+  padding:10px 0;
+  transition:border 0.5s;
+  outline:none;
+  color:white;
+
+}
+input[type="password"]
+{
+  width:240px;
+  text-align:center;
+  border:none;
+  background: transparent;
+  border-bottom:1px solid white;
+  font-family:'Play',sans-serif;
+  font-size:16px;
+  font-weight: 200px;
+  padding:10px 0;
+  transition:border 0.5s;
+  outline:none;
+  color:black;
+
+}
+input[type="date"]{
+  width:240px;
+  text-align:center;
+  border:solid 1px;
+  background: transparent;
+  border-bottom:1px solid white;
+  font-family:'Play',sans-serif;
+  font-size:16px;
+  font-weight: 200px;
+  padding:10px 0;
+  transition:border 0.5s;
+  outline:none;
+  color:black;
+}
+input[type="email"],input[type="number"]{
+  width:240px;
+  text-align:center;
+  border:none;
+  background: transparent;
+  border-bottom:1px solid white;
+  font-family:'Play',sans-serif;
+  font-size:16px;
+  font-weight: 200px;
+  padding:10px 0;
+  transition:border 0.5s;
+  outline:none;
+  color:black;
+}
+
+.Signup:hover{
+  color:DeepSkyBlue;
+}
+
+.signup{
+  width:500px;
+  height:650px;
+  background: rgba(0,0,0,0.5);
+  color:#fff;
+  top:50%;
+  left:75%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  padding:20px 20px;
+}
+.flex-container{
+display:flex;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+a:hover{
+  color:DeepSkyBlue
+}
+input[type=button],input[type=submit],input[type=reset]
+{
+  border:none;
+  width:190px;
+  background:white;
+  color:#000;
+  font-size: 16px;
+  line-height: 25px;
+  padding:10px 0;
+  border-radius: 15px;
+  cursor:pointer;
+
+}
+input[type=reset]:hover
+{
+  background-color: DeepSkyBlue;
+}
+input[type=button]:hover
+{
+  background-color: DeepSkyBlue;
+}
+input[type=submit]:hover
+{
+  background-color: DeepSkyBlue;
+}
